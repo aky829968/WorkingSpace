@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.upper{
+    position: relative;
+    z-index: 10
+    ;
+}
+p::selection{
+    background-color: #658791;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px 15px;
+}
+nav ul img{
+    width: 250px;    /* NAvbar complete */
+}
+nav ul li:hover{
+    color: #444749;
+}
+
+.drop-item{
+    /* display: flex; */
+    flex-direction: column;
+    width: max-content;
+    display: none;
+    box-shadow: 0px 5px 5px 5px;
+
+}
+
+.home:hover{
+    background-color: #f7894e;
+    /* padding: 10px; */
+    border-radius: 14px;
+}
+.home:hover .drop-item{
+    background-color: rgb(241, 245, 248);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+}
+.nn{
+    width: 200px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 50px;
+    
+}
+.heading-inner{
+    color: #f7894e;
+    margin-right: 8px;
+}
+.landing{
+    display: flex;
+    margin: 40px 70px;
+    justify-content: space-around;
+}
+.cow{
+    color: #658791
+}
+.cow:hover{
+    color: #445b63;
+    border-bottom:1px solid #212529 ;
+}
+.landing img{
+    width: 45%;
+}
+.landing p{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px ;
+    color: #212529;
+    text-align: justify;
+    
+    width: 40%;
+    line-height: 25px;
+}
+h1 span{
+    color: #f7894e;
+
+}
+
+/* landing image complete */
+.main2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -50px;
+}
+.mainineer{
+    margin: 20px 40px;
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(233, 225, 225);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin-right: 20px;
+}
+.icons img{
+    /* border: 1px solid red; */
+    /* border-radius: 50%; */
+   
+    width: 35px;
+}
+.icon-div{
+    display: flex;
+    margin-top: 40px ;
+    
+
+}
+
+/* icons complete */
+.main3-inner div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(233, 225, 225);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 50px;
+   margin-bottom: 20px;
+    /* margin-right: 20px; */
+}
+.main3-inner img{
+    width: 35px;
+
+}
+.main3{
+    margin:  30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background-color: #f7894e;
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    
+}
+.btn button:hover{
+    color: white;
+}
+
+.main4{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin: 40px 150px;
+}
+.add{
+    font-weight: 100;
+}
+.city{
+    margin-left: 300px;
+    
+}
+
+/* FAQ start */
+.faq{
+    font-size: 3rem;
+    margin-left: 120px;
+    position: sticky;
+
+}
+.faq-items{
+    background-color: #00000008;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 120px;
+    /* position: fixed; */
+    
+   
+}
+.faq-in{
+    display: flex;
+    color: #658791;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+.faq-in img{
+    width: 13px;
+    margin-right: 10px;
+}
+.faq-in:hover{
+    color: #33484f;
+}
+/* 
+ */
+/* Footer */
+footer{
+    margin: 30px 95px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-items h2{
+    color: #f7894e;
+}
+.footer-items h4{
+    margin-top: 10px;
+    color: #212529;
+    font-size: 15px;
+    
+}
+.contact{
+    margin-top: 12px;
+    color: #658791;
+    font-size: 16px;
+}
+.footer-items h4 img{
+    width: 15px;
+    margin-right: 10px;
+}
+.imges{
+    width: 15px;
+    
+    margin-top: 8px; 
+}
+.footer-items h4:hover{
+    border-bottom: 1px solid black;
+    width: max-content;
+}
+
+.end{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    
+    background-color: #212529;
+    color: #FFFFFFB3;
+}
